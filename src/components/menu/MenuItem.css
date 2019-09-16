@@ -1,0 +1,20 @@
+#menu-icon {
+  background-color: #3d61d6;
+}
+
+#menu-text {
+  padding-left: 30px;
+}
+
+.nav-icons {
+  color: white;
+}
+
+#menu-item-link {
+  color: white;
+}
+
+#menu-item-link:hover {
+  cursor: pointer;
+  text-decoration: none;
+}

@@ -1,0 +1,13 @@
+#upper {
+  background-color: #3d61d6;
+  height: 35px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+
+#lower {
+  background-color: #3d61d6;
+  height: 35px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}

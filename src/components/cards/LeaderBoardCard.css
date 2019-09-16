@@ -1,0 +1,17 @@
+#leaderboard-img {
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+#leaderboard-card {
+  margin: auto;
+  padding: 10px 0 0 0;
+}
+
+#leader-position {
+  text-align: left;
+  padding: 18px 0 0 15px;
+  font-weight: 600;
+}

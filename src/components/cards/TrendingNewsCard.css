@@ -1,0 +1,14 @@
+.squircle-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 20px;
+}
+
+#trendingNewsText {
+  color: grey;
+}
+
+#trendingNewsReadMore:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
