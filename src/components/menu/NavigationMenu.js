@@ -8,7 +8,7 @@ const NavigationMenu = props => {
   return (
     <div style={{ marginTop: "30px" }}>
       <Grid container>
-        <Grid item md={3} sm={5} xs={4} id="upper">
+        <Grid item md={3} sm={4} xs={4} id="upper">
           <h4></h4>
         </Grid>
         <Grid item md={9} sm={7} xs={8}></Grid>
@@ -20,7 +20,7 @@ const NavigationMenu = props => {
       <MenuItem />
       <MenuItem />
       <Grid container>
-        <Grid item md={3} sm={5} xs={4} id="lower">
+        <Grid item md={3} sm={4} xs={4} id="lower">
           <h4></h4>
         </Grid>
         <Grid item md={9} sm={7} xs={8}></Grid>

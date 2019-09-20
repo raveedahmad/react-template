@@ -14,7 +14,7 @@ const UserCard = props => {
         />
       </Grid>
       <Grid item md={1}></Grid>
-      <Grid item md={7} sm={7} xs={7} item>
+      <Grid item md={8} sm={7} xs={7} item>
         <h3 id="user-name">Raveed</h3>
         <h4 id="user-info">218 Articles read</h4>
       </Grid>
