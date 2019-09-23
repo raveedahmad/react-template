@@ -1,6 +1,6 @@
 #img-with-text-over {
   width: 100%;
-  height: 100%;
+  height: 340px;
   margin-bottom: 0;
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -11,7 +11,8 @@
 }
 
 #text-on-image {
-  padding: 280px 10px 0 15px;
+  padding: 250px 5px 0 10px;
   color: white;
   font-weight: 800;
+  overflow: auto;
 }

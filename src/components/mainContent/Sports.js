@@ -14,19 +14,19 @@ const Sports = props => {
       </Link>
       <div id="sports-main" style={{ backgroundColor: "#ECFFED" }}>
         <Grid container spacing={2}>
-          <Grid item md={3} xs={3} sm={3}>
+          <Grid item md={3} xs={12} sm={6}>
             <div
               id="sports-img"
               style={{ backgroundImage: `url(${background})` }}
             ></div>
           </Grid>
-          <Grid item md={3} xs={3} sm={3}>
+          <Grid item md={3} xs={12} sm={6}>
             <ImgWithTextOver />
           </Grid>
-          <Grid item md={3} xs={3} sm={3}>
+          <Grid item md={3} xs={12} sm={6}>
             <ImgWithTextOver />
           </Grid>
-          <Grid item md={3} xs={3} sm={3}>
+          <Grid item md={3} xs={12} sm={6}>
             <ImgWithTextOver />
           </Grid>
         </Grid>

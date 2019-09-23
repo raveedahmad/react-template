@@ -5,7 +5,8 @@
 }
 
 .header-links {
-  padding-top: 5px;
+  padding: 7px 0 0 0;
+  margin: 0;
 }
 
 #header-link:hover {
@@ -17,8 +18,8 @@
   border: none;
   background-color: white;
   width: 90%;
-  height: 70%;
-  margin-top: 5px;
+  height: 65%;
+  margin-top: 3px;
   padding-left: 5px;
   border-bottom-left-radius: 15px;
   border-top-left-radius: 15px;
@@ -26,7 +27,7 @@
   border-top-right-radius: 15px;
 }
 #header-icon {
-  padding-top: 5px;
+  padding-top: 2px;
   color: #243080;
 }
 

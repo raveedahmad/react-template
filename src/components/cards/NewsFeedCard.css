@@ -51,12 +51,12 @@
 }
 
 #news-feed-card-detail {
-  margin: 0;
+  margin: 0 auto 0 0;
   padding: 0;
 }
 
 #news-feed-card-option {
-  margin: 0;
+  margin: 0 auto 0 0;
   font-weight: 550;
 }
 

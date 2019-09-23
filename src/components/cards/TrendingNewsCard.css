@@ -1,7 +1,12 @@
-.squircle-img {
-  width: 90px;
-  height: 90px;
+#squircle-img-nav-news {
+  width: 80px;
+  height: 80px;
   border-radius: 20px;
+  margin-right: 20px;
+}
+
+#nav-news-card {
+  margin-top: 20px;
 }
 
 #trendingNewsText {
