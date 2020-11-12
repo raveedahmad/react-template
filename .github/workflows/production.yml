@@ -26,11 +26,11 @@ jobs:
         yarn build
       env:
         CI: ""
-    - name: Unit Tests
-      run: |
-        yarn test
-      env:
-        CI: ""
+#     - name: Unit Tests
+#       run: |
+#         yarn test
+#       env:
+#         CI: ""
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
