@@ -1,41 +1,32 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Production Build
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
-
   pull_request:
-
   push:
     branches:
       - master
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     strategy:
       matrix:
-        node-version: [12.x]
-
+        node-version: [8.x, 10.x, 12.x]
+        
     steps:
     - uses: actions/checkout@v1
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm Install
+    - name: Yarn Install
       run: |
-        nmp install
+        yarn install
     - name: Production Build
       run: |
-        npm build
+        yarn build
     - name: Unit Tests
       run: |
-        npm test
+        yarn test
     - name: Deploy to S3
       uses: jakejarvis/s3-sync-action@master
       with:
