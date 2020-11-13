@@ -12,10 +12,9 @@ function App() {
         <Header />
       </header>
       <Grid container>
-        {//<Grid item md={3} sm={5} xs={12}>
-          // <Sidebar />
-        // </Grid>
-        }
+        <Grid item md={3} sm={5} xs={12}>
+          <Sidebar />
+        </Grid>
         <Grid item md={9} sm={7} xs={12}>
           <MainContent />
         </Grid>
